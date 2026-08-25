@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login page</title>
+</head>
+<body>
+    <form action="login.html">
+        <h1> login deatials</h1>
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" pattern="[a-zA-Z0-9._%+-]+@[gmail]+\.[com]"  title="Enter a valid email address" required>
+
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@$!%*?&])[A-Za-z0-9@$!%*?&]{8,}" title="Password must contain at least 8 characters, one uppercase letter, one lowercase letter, one number, and one special character" required ><br><br>
+        <a href="./forgot_password.html" >forgot password</a>&nbsp;&nbsp;
+        <a href="./sin_in.html">sign in</a><br><br>
+        <input type="submit">
+    </form>
+    
+    
+</body>
+</html>
